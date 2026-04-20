@@ -20,6 +20,8 @@ fs.readFile("docs/info.txt", "utf8", (err, data) => {
     } else{
         console.log(data);
 }
+});
+
     
 // })
 if (fs.existsSync("docs/info.txt")) {
